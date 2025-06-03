@@ -210,7 +210,7 @@ CategoryName = "Seafood";
 
 10. Examine the Products table. How does it identify the type (category) of each item sold? Write a query to list all of the seafood items we carry.
 
-ANSWER: It identifies it by the foreign key, which is CategoryID. CategoryID is the primary key is "categories" table. Seafood CategoryID is 8. 
+ANSWER: It identifies it by the foreign key, which is CategoryID. CategoryID is the primary key in "categories" table. Seafood CategoryID is 8. 
 
 Query:
 ╭──────────.★..─╮
