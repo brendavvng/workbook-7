@@ -286,10 +286,7 @@ ANSWER: Inside Sales Coordinator, Sales Manager, Sales Representative, Vice Pres
 Query:
 ╭──────────.★..─╮
 SELECT
-EmployeeID,
-FirstName,
-LastName,
-Title
+DISTINCT Title
 
 FROM 
 northwind.employees;
