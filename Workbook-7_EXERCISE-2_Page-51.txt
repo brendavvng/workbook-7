@@ -2,6 +2,7 @@ Workbook 7 - EXERCISE 2 - Page 51
 ─────────────୨ৎ─────────────
 
 1. What is the name of the table that holds the items Northwind sells?
+
 ANSWER: Products table
 
 ──────────── ⋆⋅☆⋅⋆ ────────────
@@ -98,6 +99,7 @@ UnitPrice DESC;
 6. What are the products that we carry where we have at least 100 units on hand? Order them in descending order by price. If two or more have the same price, list those in ascending order by product name.
 
 ANSWER: 
+
 Sirop d'rable,
 Grandma's Boysenberry Spread,
 Pt chinois,
@@ -281,6 +283,7 @@ northwind.employees;
 14. What employees have a salary that is between $200 0 and $2500?
 
 ANSWER: 
+
 EmployeeID, FirstName, LastName, Title, Salary
 '2', 'Andrew', 'Fuller', 'Vice President, Sales', '2254.49'
 '6', 'Michael', 'Suyama', 'Sales Representative', '2004.07'
