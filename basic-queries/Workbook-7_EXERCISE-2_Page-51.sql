@@ -5,6 +5,15 @@ Workbook 7 - EXERCISE 2 - Page 51
 
 ANSWER: Products table
 
+  Query:
+╭──────────.★..─╮
+SELECT 
+  * 
+
+FROM 
+  northwind.products;
+╰─..★.──────────╯
+
 ──────────── ⋆⋅☆⋅⋆ ────────────
 
 2. Write a query to list the product id, product name, and unit price of every product.
