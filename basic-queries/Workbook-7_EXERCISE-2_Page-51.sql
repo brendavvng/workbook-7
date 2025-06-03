@@ -171,6 +171,13 @@ ProductName;
 
 ANSWER: Categories table
 
+╭──────────.★..─╮
+SELECT 
+* 
+FROM 
+northwind.categories;
+╰─..★.──────────╯
+
 ──────────── ⋆⋅☆⋅⋆ ────────────
 
 9. Write a query that lists all of the columns and all of the rows of the categories table? What is the category id of seafood?
