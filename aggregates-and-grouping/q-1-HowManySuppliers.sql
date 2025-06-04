@@ -3,7 +3,7 @@
 ╭┈ • ┈ ୨୧ ┈ • ┈╮
 
 SELECT 
-COUNT(*)
+COUNT(*) AS SupplierCount
 FROM 
 northwind.suppliers;
 
