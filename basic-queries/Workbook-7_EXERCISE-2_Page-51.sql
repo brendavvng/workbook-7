@@ -5,6 +5,15 @@ Workbook 7 - EXERCISE 2 - Page 51
 
 ANSWER: Products table
 
+  Query:
+╭──────────.★..─╮
+SELECT 
+  * 
+
+FROM 
+  northwind.products;
+╰─..★.──────────╯
+
 ──────────── ⋆⋅☆⋅⋆ ────────────
 
 2. Write a query to list the product id, product name, and unit price of every product.
@@ -162,6 +171,13 @@ ProductName;
 
 ANSWER: Categories table
 
+╭──────────.★..─╮
+SELECT 
+* 
+FROM 
+northwind.categories;
+╰─..★.──────────╯
+
 ──────────── ⋆⋅☆⋅⋆ ────────────
 
 9. Write a query that lists all of the columns and all of the rows of the categories table? What is the category id of seafood?
@@ -194,7 +210,7 @@ CategoryName = "Seafood";
 
 10. Examine the Products table. How does it identify the type (category) of each item sold? Write a query to list all of the seafood items we carry.
 
-ANSWER: It identifies it by the foreign key, which is CategoryID. CategoryID is the primary key is "categories" table. Seafood CategoryID is 8. 
+ANSWER: It identifies it by the foreign key, which is CategoryID. CategoryID is the primary key in "categories" table. Seafood CategoryID is 8. 
 
 Query:
 ╭──────────.★..─╮
@@ -270,10 +286,7 @@ ANSWER: Inside Sales Coordinator, Sales Manager, Sales Representative, Vice Pres
 Query:
 ╭──────────.★..─╮
 SELECT
-EmployeeID,
-FirstName,
-LastName,
-Title
+DISTINCT Title
 
 FROM 
 northwind.employees;
