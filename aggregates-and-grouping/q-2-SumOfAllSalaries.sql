@@ -3,7 +3,7 @@
 ╭┈ • ┈ ୨୧ ┈ • ┈╮
   
 SELECT
-SUM(Salary) 
+SUM(Salary) AS TotalSalaries
 FROM northwind.employees;
 
 ╰┈ • ┈ ୨୧ ┈ • ┈╯
