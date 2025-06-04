@@ -1,3 +1,7 @@
+5. What is the name of the customer that bought order 10266?
+
+┌─── ∘°💮°∘ ───┐
+
 SELECT 
 	ContactName
 FROM
@@ -8,3 +12,5 @@ WHERE
 		FROM northwind.orders 
         WHERE OrderID = 10266
 	);
+
+└─── °∘💮∘° ───┘
