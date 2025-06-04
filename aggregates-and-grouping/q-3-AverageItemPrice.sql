@@ -1,10 +1,9 @@
-3. What is the price of the cheapest item that Northwind sells?
+3. What is the average price of items that Northwind sells?
 
 ╭┈ • ┈ ୨୧ ┈ • ┈╮
 
 SELECT
-AVG(UnitPrice) as AverageItemPrice
-FROM 
-northwind.products;
+MIN(UnitPrice) as CheapestItemPrice
+FROM northwind.products;
 
 ╰┈ • ┈ ୨୧ ┈ • ┈╯
