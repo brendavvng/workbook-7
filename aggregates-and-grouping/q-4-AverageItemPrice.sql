@@ -1,4 +1,4 @@
-4. What is the price of the cheapest item that Northwind sells?
+4. What is the average price of items that Northwind sells?
 
 ╭┈ • ┈ ୨୧ ┈ • ┈╮
 
