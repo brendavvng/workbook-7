@@ -8,9 +8,9 @@
 
 SELECT 
 	OrderID,
-    ShipName,
-    ShipAddress,
-    ShipVia AS ShipperID
+    	ShipName,
+    	ShipAddress,
+    	ShipVia AS ShipperID
 FROM 
 	northwind.orders
 WHERE
