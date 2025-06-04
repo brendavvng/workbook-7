@@ -11,7 +11,7 @@ WHERE
 	EmployeeID = (
 		SELECT EmployeeID 
 		FROM northwind.orders 
-        WHERE OrderID = 10266
+        	WHERE OrderID = 10266
 	);
 
 └─── °∘💮∘° ───┘
