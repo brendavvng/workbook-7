@@ -3,8 +3,8 @@
 ┌─── ∘°💮°∘ ───┐
 
 SELECT 
-	FirstName,
-    LastName
+	FirstName
+    	, LastName
 FROM
 	northwind.employees
 WHERE
