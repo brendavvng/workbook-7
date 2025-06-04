@@ -12,6 +12,6 @@ northwind.products
 GROUP BY
 SupplierID
 HAVING 
-COUNT(*) >= 5;
+NumberOfItems >= 5;
 
 ╰┈ • ┈ ୨୧ ┈ • ┈╯
