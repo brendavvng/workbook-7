@@ -6,7 +6,7 @@
 
 SELECT 
 	ProductName
-    , UnitPrice
+    	, UnitPrice
 FROM 
 	northwind.products
 WHERE
