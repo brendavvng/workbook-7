@@ -12,7 +12,7 @@ SELECT
 FROM
 	orders O
 	JOIN orderdetails OD ON (O.OrderID = OD.OrderID)
-    JOIN products P ON (P.ProductID = OD.ProductID)
+    	JOIN products P ON (P.ProductID = OD.ProductID)
 WHERE
 	P.ProductName = 'Sasquatch Ale';
 
