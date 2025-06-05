@@ -1,3 +1,9 @@
+6. List the order id, order date, ship name, ship address of all orders that
+   ordered "Sasquatch Ale"?
+	
+		 Query:
+₊˚ ✧ ━━━━━━━━━━━━━⊱⋆⊰━━━━━━━━━━━━━ ✧ ₊˚
+
 SELECT
 	O.OrderID,
 	O.OrderDate,
@@ -9,3 +15,5 @@ FROM
     JOIN products P ON (P.ProductID = OD.ProductID)
 WHERE
 	P.ProductName = 'Sasquatch Ale';
+
+₊˚ ✧ ━━━━━━━━━━━━━⊱⋆⊰━━━━━━━━━━━━━ ✧ ₊˚
