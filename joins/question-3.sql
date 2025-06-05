@@ -1,3 +1,9 @@
+3. List the product id, product name, unit price, category name, and supplier
+   name of every product. Order by product name.
+	
+		 Query:
+₊˚ ✧ ━━━━━━━━━━━━━⊱⋆⊰━━━━━━━━━━━━━ ✧ ₊˚
+
 SELECT
 	P.ProductID,
     P.ProductName,
@@ -10,3 +16,5 @@ FROM
     JOIN suppliers S ON (P.SupplierID = S.SupplierID)
 ORDER BY
     P.ProductName;
+
+₊˚ ✧ ━━━━━━━━━━━━━⊱⋆⊰━━━━━━━━━━━━━ ✧ ₊˚
