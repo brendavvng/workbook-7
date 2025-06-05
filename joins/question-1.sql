@@ -11,6 +11,13 @@ SELECT
     	C.CategoryName
 FROM
 	products P
+<<<<<<< HEAD
     	JOIN categories C ON (C.CategoryID = P.CategoryID);
 
 ₊˚ ✧ ━━━━━━━━━━━━━⊱⋆⊰━━━━━━━━━━━━━ ✧ ₊˚
+=======
+    JOIN categories C ON (C.CategoryID = P.CategoryID)
+ORDER BY
+	C.CategoryName,
+    P.ProductName;
+>>>>>>> a352bfb (forgot to add in the Order By in question 1)
